@@ -1,0 +1,55 @@
+.navigation {
+  position: fixed;
+  top: 0;
+  z-index: 2;
+  background-color: white;
+  width: 100%;
+  border-bottom: 1px solid lightgrey;
+}
+
+.logo {
+  width: 100px;
+  height: 30px;
+  padding: 0.1em;
+  cursor: pointer;
+}
+
+.container {
+  padding: 1em 0 0.9em 0;
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.search {
+  border: 1px solid lightgray;
+  border-radius: 3px;
+  background-color: lightgrey;
+  min-width: 225px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: text;
+}
+
+.searchIcon {
+  width: 20px;
+  margin-left: 10px;
+  margin-right: auto;
+  background-color: #898080;
+  padding: 0;
+}
+
+.searchText {
+  color: whitesmoke;
+  justify-content: left;
+  margin-right: auto;
+}
+
+@media screen and (max-width: 500px) {
+  .search {
+    display: none;
+  }
+}

@@ -1,0 +1,18 @@
+.sidebar{
+    width: 320px;
+    padding: 15px 5px 0 0;
+    
+}
+
+.urlText{
+    color: black;
+}
+
+
+
+@media screen and(max-width1024px) {
+    .sidebar{
+        display: none;
+    }
+    
+}

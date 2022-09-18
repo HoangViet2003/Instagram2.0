@@ -1,0 +1,12 @@
+.suggestion{
+    margin-top: 1.25em;
+}
+
+.titleContainer{
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8em;
+    color: gray;
+    margin-bottom: 1.25em;
+}
+

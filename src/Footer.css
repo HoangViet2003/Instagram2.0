@@ -1,0 +1,17 @@
+.footer{
+    color:lightgray;
+    font-size: 0.7em;
+    margin-top:2em;
+    
+}
+
+.links{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 10px 2em 10px;
+        
+    list-style: none;
+
+    
+}
+

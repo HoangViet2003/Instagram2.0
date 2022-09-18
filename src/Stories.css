@@ -1,0 +1,22 @@
+.stories{
+    display: flex;
+    align-content: center;
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+    margin:2em 0 1.5 0;
+    height: 7em;
+    overflow-x: hidden;
+    
+}
+
+.stories ::-webkit-scrollbar{
+    display: none;
+}
+
+@media screen and (max-width:640px) {
+    .stories{
+        margin: 0.5em 0.5em 0.5em 0.5em;
+    }
+    
+}
