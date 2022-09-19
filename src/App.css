@@ -6,30 +6,27 @@ body {
   min-width: fit-content;
 }
 
-main{
+main {
   background-color: white;
   margin-top: 60px;
-
 }
 
-.container{
+.container {
   display: flex;
   justify-items: left;
   margin: 0 auto;
   max-width: 1000px;
-
 }
 
-a{
+a {
   text-decoration: none;
   color: rgb(30, 177, 222);
   font-size: 0.9em;
   font-weight: 500;
 }
 
-@media screen and (max-width:1024px){
-  .container{
+@media screen and (max-width: 1024px) {
+  .container {
     justify-content: center;
   }
-  
 }

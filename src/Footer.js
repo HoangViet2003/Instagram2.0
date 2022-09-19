@@ -1,8 +1,9 @@
 import "./Footer.css";
 
 function Footer() {
-  return <div className="footer">
-    <ul className="links">
+  return (
+    <div className="footer">
+      <ul className="links">
         <li>About</li>
         <li>Help</li>
         <li>Press</li>
@@ -14,9 +15,10 @@ function Footer() {
         <li>Top Account</li>
         <li>Hashtags</li>
         <li>Language</li>
-    </ul>
-    <div className="copyright">@ 2022 INSTAGRAM FROM META</div>
-  </div>;
+      </ul>
+      <div className="copyright">@ 2022 INSTAGRAM FROM META</div>
+    </div>
+  );
 }
 
 export default Footer;

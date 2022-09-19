@@ -1,36 +1,33 @@
-.profile{
-    display: flex;
-    align-items: center;
-    margin-bottom: 0.85em;
+.profile {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.85em;
 }
 
-.profileUserSuggest{
-    margin-bottom: 20px;
+.profileUserSuggest {
+  margin-bottom: 20px;
 }
 
-.textContainer{
-    display: flex;
-    flex-direction: column;
-    margin-left: 1em;
-    min-width: 180px;
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1em;
+  min-width: 180px;
 }
 
-.userName{
-    font-weight: 500;
-    font-size: 13px ;
-    
-    margin-bottom: 5px;
-    cursor: pointer;      
-    
+.userName {
+  font-weight: 500;
+  font-size: 13px;
+
+  margin-bottom: 5px;
+  cursor: pointer;
 }
 
-.caption{
-    color: lightgray;
-
+.caption {
+  color: lightgray;
 }
 
-a{
-    text-align: right;
-    margin: 10px;
-    
+a {
+  text-align: right;
+  margin: 10px;
 }

@@ -24,11 +24,9 @@
 }
 
 .search {
- 
   border-radius: 3px;
   background-color: #efefef;
   min-width: 225px;
-  
   align-items: center;
   justify-content: center;
   cursor: text;
@@ -49,7 +47,6 @@
   justify-content: left;
   margin-right: auto;
   margin-left: 10px;
- 
 }
 
 @media screen and (max-width: 500px) {

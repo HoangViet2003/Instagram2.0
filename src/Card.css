@@ -1,17 +1,19 @@
-.card{
-    width: 500px;
-    margin-top: 20px;
-    margin-left: 150px;
+.card {
+  width: 500px;
+  margin-top: 20px;
+  margin-left: 150px;
 }
 
-.post1{
-    margin-bottom: 800px;
-    
+.post1 {
+  margin-bottom: 800px;
 }
 
-@media screen and (max-width:600px) {
-    .card{
-        width: 100%;
-    }
-    
+.post2 {
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .card {
+    width: 100%;
+  }
 }
