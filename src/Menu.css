@@ -9,3 +9,10 @@
   height: 23px;
   cursor: pointer;
 }
+
+.myAvatar{
+  width: 23px;
+  height: 23px;
+  border-radius: 50%;
+  margin-left: 20px;
+}

@@ -1,8 +1,8 @@
 import "./Stories.css";
 // import HorizontalScroll from "react-scroll-horizontal";
-import Story from "./Story";
+
 import ProfileIcon from "./ProfileIcon";
-import user from "./dataUser/user";
+
 
 function Stories() {
   return (
@@ -13,31 +13,31 @@ function Stories() {
       </div>
       <div>
         <ProfileIcon iconSize="big"  />
-        <span className="accountName">Mathana</span>
+        <span className="accountName">CloderMa</span>
       </div>
       <div>
         <ProfileIcon iconSize="big"  />
-        <span className="accountName">Mathana</span>
+        <span className="accountName">EthanWin</span>
       </div>
       <div>
         <ProfileIcon iconSize="big"  />
-        <span className="accountName">Mathana</span>
+        <span className="accountName">Setephan</span>
       </div>
       <div>
         <ProfileIcon iconSize="big"  />
-        <span className="accountName">Mathana</span>
+        <span className="accountName">Durenma</span>
       </div>
       <div>
         <ProfileIcon iconSize="big"  />
-        <span className="accountName">Mathana</span>
+        <span className="accountName">Kawiker</span>
       </div>
       <div>
         <ProfileIcon iconSize="big"  />
-        <span className="accountName">Mathana</span>
+        <span className="accountName">Geogrore</span>
       </div>
       <div>
         <ProfileIcon iconSize="big"  />
-        <span className="accountName">Mathana</span>
+        <span className="accountName">Yutapon</span>
       </div>
       <div>
         <ProfileIcon iconSize="big"  />

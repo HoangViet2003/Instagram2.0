@@ -3,11 +3,16 @@
     align-content: center;
     background-color: white;
     border: 1px solid lightgray;
-    border-radius: 3px;
+    border-radius: 8px;
     margin:2em 0 1.5 0;
     height: 7em;
     overflow-x: hidden;
     
+}
+
+.accountName{
+    font-size: 10px;
+    margin-left: 30px;
 }
 
 .stories ::-webkit-scrollbar{

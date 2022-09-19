@@ -2,11 +2,16 @@
     margin-top: 1.25em;
 }
 
+.seeAll{
+    color: black;
+}
+
 .titleContainer{
     display: flex;
     justify-content: space-between;
     font-size: 0.8em;
     color: gray;
     margin-bottom: 1.25em;
+    margin-left: 20px;
 }
 

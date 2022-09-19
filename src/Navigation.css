@@ -24,11 +24,11 @@
 }
 
 .search {
-  border: 1px solid lightgray;
+ 
   border-radius: 3px;
-  background-color: lightgrey;
+  background-color: #efefef;
   min-width: 225px;
-  display: flex;
+  
   align-items: center;
   justify-content: center;
   cursor: text;
@@ -36,16 +36,20 @@
 
 .searchIcon {
   width: 20px;
+  margin-top: 5px;
   margin-left: 10px;
   margin-right: auto;
-  background-color: #898080;
+  background-color: #efefef;
   padding: 0;
 }
 
 .searchText {
-  color: whitesmoke;
+  color: #8e8e8e;
+  opacity: 0.5;
   justify-content: left;
   margin-right: auto;
+  margin-left: 10px;
+ 
 }
 
 @media screen and (max-width: 500px) {

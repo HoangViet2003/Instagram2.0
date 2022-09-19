@@ -20,21 +20,21 @@ function Sidebar() {
           <Suggestions />
           <Profile
             username="nghoang"
-            caption="Nguyen Hoang Viet"
+            caption="Follow you"
             urlText="Follow"
             iconSize="medium"
             image={image}
           />
           <Profile
             username="nghoang"
-            caption="Nguyen Hoang Viet"
+            caption="Suggestion for you"
             urlText="Follow"
             iconSize="medium"
             image={image}
           />
           <Profile
             username="nghoang"
-            caption="Nguyen Hoang Viet"
+            caption="Invite you join"
             urlText="Follow"
             iconSize="medium"
             image={image}

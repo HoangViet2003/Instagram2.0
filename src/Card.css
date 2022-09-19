@@ -4,6 +4,11 @@
     margin-left: 150px;
 }
 
+.post1{
+    margin-bottom: 800px;
+    
+}
+
 @media screen and (max-width:600px) {
     .card{
         width: 100%;

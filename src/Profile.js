@@ -1,6 +1,6 @@
 import "./Profile.css";
 import ProfileIcon from "./ProfileIcon";
-import user from "./dataUser/user";
+
 
 function Profile(props) {
   const {
@@ -8,23 +8,21 @@ function Profile(props) {
     caption,
     urlText,
     iconSize,
-    captionSize,
-    hideAccountName,
+    captionSize,  
     image,
   } = props;
 
   let accountName = username
-    ? username
-    : user[Math.floor(Math.random() * user.length)].username;
+    
   return (
     <div className="profile">
-      <ProfileIcon iconSize={iconSize} image={image} />
-      {(accountName || caption) && !hideAccountName && (
+      <ProfileIcon className="profileUserSuggest" iconSize={iconSize} image={image} />
+      
         <div className="textContainer">
-          <span className="accountName">{accountName}</span>
+          <span className="userName">{accountName}</span>
           <span className={`caption ${captionSize}`}>{caption}</span>
         </div>
-      )}
+      
       <a href="/">{urlText}</a>
     </div>
   );

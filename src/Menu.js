@@ -4,7 +4,6 @@ import { ReactComponent as Inbox } from "./image/Inbox.svg";
 import { ReactComponent as AddPost } from "./image/AddPost.svg";
 import { ReactComponent as Explore } from "./image/Explore.svg";
 import { ReactComponent as Noti } from "./image/Noti.svg";
-import ProfileIcon from "./ProfileIcon.js";
 import Avatar from "./image/Avatar.webp";
 
 function Menu() {
@@ -15,7 +14,7 @@ function Menu() {
       <AddPost className="icon" />
       <Explore className="icon" />
       <Noti className="icon" />
-      <ProfileIcon iconSize="small" image={Avatar} />
+      <img className="myAvatar" src={Avatar} alt="avt" />
     </div>
   );
 }

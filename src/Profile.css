@@ -4,6 +4,10 @@
     margin-bottom: 0.85em;
 }
 
+.profileUserSuggest{
+    margin-bottom: 20px;
+}
+
 .textContainer{
     display: flex;
     flex-direction: column;
@@ -11,8 +15,10 @@
     min-width: 180px;
 }
 
-.accountName{
+.userName{
     font-weight: 500;
+    font-size: 13px ;
+    
     margin-bottom: 5px;
     cursor: pointer;      
     
@@ -24,6 +30,7 @@
 }
 
 a{
-    text-align: left;
+    text-align: right;
     margin: 10px;
+    
 }

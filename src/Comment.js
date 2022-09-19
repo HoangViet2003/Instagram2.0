@@ -1,7 +1,7 @@
 import "./Comment.css";
 
-function Post() {
-  return <div className="post"></div>;
+function Comment() {
+  return <div className="comment"></div>;
 }
 
-export default Post;
+export default Comment;
